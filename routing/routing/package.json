@@ -1,0 +1,24 @@
+{
+  "name": "routing",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@material-ui/pickers": "^3.3.10",
+    "@mui/material": "^5.10.12",
+    "@mui/x-date-pickers": "^5.0.7",
+    "dayjs": "^1.11.6",
+    "next": "13.0.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.6.0",
+    "styled-components": "^5.3.6"
+  }
+}
