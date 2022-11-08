@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import { Spacer, Wrapper, Divider, Interdiv } from "../styles/compStyle";
 import { H5 } from "../components/textStyles/style";
 import InputCompany from "../components/newCompany/inputCompany";
 import BillingCompany from "../components/newCompany/billingInfo";
@@ -11,32 +11,6 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
-let Height = "calc(100vh - clamp(54px, 8vw, 84px) - 62px)";
-
-const Spacer = styled.div`
-  height: 40vw;
-`;
-const Wrapper = styled.div`
-  width: 90vw;
-  min-height: ${Height};
-  margin-left: 5vw;
-  margin-right: 5vw;
-  z-index: 1;
-`;
-
-const Divider = styled.div`
-  width: 70vw;
-  margin-left: 5vw;
-  margin-right: 5vw;
-  z-index: 1;
-`;
-
-const Interdiv = styled.div`
-  width: 30vw;
-  margin-top: 2vw;
-  margin-left: 5vw;
-  margin-bottom: 2vw;
-`;
 
 function createData(Nom, Type, domaine, nbr_abonnement, date_abonnement) {
   return { Nom, Type, domaine, nbr_abonnement, date_abonnement };
